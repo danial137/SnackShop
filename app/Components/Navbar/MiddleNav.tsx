@@ -39,7 +39,12 @@ const MiddleNav = () => {
           {/* wishlist */}
           <Link href='/' className="relative">
             <i className="bi bi-heart text-gray-600 text-xl hover:text-[var(--prim-color)] transition-all"></i>
-            <span className="absolute -top-2 -right-2 bg-[var(--prim-color)] text-white text-xs w-4 h-4 flex items-center justify-center rounded-full">1</span>
+            <span className="absolute -top-2 -right-2 bg-[var(--prim-color)] text-white text-xs w-5 h-5 flex items-center justify-center rounded-full">1</span>
+          </Link>
+          {/* cart */}
+          <Link href='/' className="relative">
+            <i className="bi bi-cart text-gray-600 text-xl hover:text-[var(--prim-color)] transition-all"></i>
+            <span className="absolute -top-2 -right-2 bg-[var(--prim-color)] text-white text-xs w-5 h-5 flex items-center justify-center rounded-full">2</span>
           </Link>
         </div>
       </div>

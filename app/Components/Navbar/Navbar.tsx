@@ -1,3 +1,4 @@
+import BottomeNav from "./BottomeNav";
 import MiddleNav from "./MiddleNav";
 import Topnav from "./Topnav";
 
@@ -6,7 +7,8 @@ export default function Navbar() {
   return (
     <>
       <Topnav />
-      <MiddleNav/>
+      <MiddleNav />
+      <BottomeNav/>
     </>
   )
 }
