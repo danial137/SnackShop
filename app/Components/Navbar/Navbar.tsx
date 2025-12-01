@@ -1,9 +1,12 @@
-import React from 'react'
+import MiddleNav from "./MiddleNav";
+import Topnav from "./Topnav";
 
-const Navbar = () => {
+
+export default function Navbar() {
   return (
-    <div>Navbar</div>
+    <>
+      <Topnav />
+      <MiddleNav/>
+    </>
   )
 }
-
-export default Navbar

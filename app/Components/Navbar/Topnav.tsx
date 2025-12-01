@@ -1,9 +1,21 @@
-import React from 'react'
+import Link from "next/link";
 
-const Topnav = () => {
+export default function Topnav() {
   return (
-    <div>Topnav</div>
+
+    <div className="w-full bg-[var(--prim-color)] text-white text-xs">
+      <div className="flex items-center justify-between py-3 px-[8%] lg:px-[12%]">
+        <div className="flex space-x-4">
+          <Link href="#" className="pr-3 border-r-2 border-gray-300 hover:underline">About Us</Link>
+          <Link href="#" className="pr-3 border-r-2 border-gray-300 hover:underline">Free Delivery</Link>
+          <Link href="#" className="hover:underline">Return policy</Link>
+        </div>
+        <div className="flex  space-x-4">
+          <Link href="#" className="pr-3 border-r-2 border-gray-300 hover:underline">Help Center</Link>
+          <Link href="#" className=" hover:underline">Help Center</Link>
+        </div>
+      </div>
+
+    </div>
   )
 }
-
-export default Topnav
